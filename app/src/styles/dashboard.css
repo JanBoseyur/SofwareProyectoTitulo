@@ -1,0 +1,13 @@
+
+.body {
+    display: flex;
+    flex-direction: row;
+
+    min-height: 100vh;
+}
+
+.chartContainer {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
