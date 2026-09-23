@@ -1,6 +1,5 @@
 
 import { Archive, ChartLine, Library, Bug, ChartPie, Package } from "lucide-react";
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import "../styles/navbar.css";
