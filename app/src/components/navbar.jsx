@@ -23,11 +23,15 @@ function Navbar() {
                     </Button>
                 </NavLink>
 
-                <Button icon = {Archive} className = "buttonNav">
-                </Button>
+                <NavLink to="/data">
+                    <Button icon = {Archive} className = "buttonNav">
+                    </Button>
+                </NavLink>
 
-                <Button icon = {Bug} className = "buttonNav">
-                </Button>
+                <NavLink to="/bug">
+                    <Button icon = {Bug} className = "buttonNav">
+                    </Button>
+                </NavLink>
 
                 <Button icon = {ChartPie} className = "buttonNav">
                 </Button>

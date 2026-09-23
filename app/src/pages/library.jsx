@@ -1,13 +1,15 @@
 
-import { useState } from "react";
-import "../styles/navbar.css";
-import Button from "../components/buttonNavbar";
+import "../styles/library.css";
 
 function Library() {
     return (
-
-        <div>
-            Library
+            
+        <div className = "libraryContainer">
+            
+            <div className = "">
+                Library    
+            </div>
+            
         </div>
 
     );

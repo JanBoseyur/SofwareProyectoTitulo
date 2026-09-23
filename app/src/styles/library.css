@@ -1,0 +1,13 @@
+
+.bodyLibrary {
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.libraryContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto {
+    flex: 1;
+}

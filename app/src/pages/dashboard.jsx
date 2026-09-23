@@ -1,16 +1,24 @@
 
-import { useState } from "react";
-
 import "../styles/dashboard.css";
 
 import VoiceChart from "../components/charts/VoiceCharts";
-import Button from "../components/buttonNavbar";
 
 function Dashboard() {
     return (
 
-        <div className = "body">
+        <div className = "bodyDashboard">
             
+            <div className = "textContainer">
+                <div className = "titulo">
+                    Vochice
+                </div>
+
+                <div className = "descripcion">
+                    Software de orientación a posible riesgo suicida
+                    mediante análisis sonoro
+                </div>
+            </div>
+
             <div className = "chartContainer">
                 <VoiceChart/>
             </div>

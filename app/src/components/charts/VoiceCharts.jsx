@@ -40,7 +40,19 @@ function VoiceChart() {
             {
                 name: "Energía",
                 type: "line",
-                data: [0.2, 0.5, 0.8, 0.6, 0.3, 0.7, 0.2, 0.16, 0.2, 0.5, 0.8, 0.2, 0.5, 0.8, 0.6, 0.3, 0.7, 0.2, 0.16, 0.3, 0.7, 0.2, 0.16, ],
+                
+                data: [
+                    0.03, 0.07, 0.12, 0.09, 0.21,
+                    0.36, 0.29, 0.48, 0.62, 0.55,
+                    0.71, 0.64, 0.82, 0.68, 0.51,
+                    0.43, 0.57, 0.39, 0.24, 0.31,
+                    0.18, 0.09, 0.05, 0.08, 0.14,
+                    0.27, 0.45, 0.38, 0.61, 0.76,
+                    0.69, 0.87, 0.73, 0.58, 0.66,
+                    0.49, 0.35, 0.42, 0.28, 0.17,
+                    0.11, 0.06, 0.13, 0.22, 0.34,
+                    0.29, 0.47, 0.63, 0.52, 0.71
+                ],
 
                 animationDuration: 3000,
 
@@ -65,16 +77,17 @@ function VoiceChart() {
     };
 
     return (
-        <div style={{
+
+        <div style = {{
             width: "100%",
             height: "100%",
             display: "flex",
             alignItems: "flex-end",
         }}>
             <ReactECharts
-                option={option}
-                style={{ width: "100%", height: "20%" }}
-                opts={{ renderer: "svg" }}
+                option = {option}
+                style = {{ width: "100%", height: "20%" }}
+                opts = {{ renderer: "svg" }}
             />
         </div>
     );
