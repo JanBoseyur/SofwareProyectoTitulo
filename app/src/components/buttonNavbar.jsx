@@ -9,7 +9,7 @@ function Button({ children, onClick, className = "", type = "button", icon: Icon
             className = {`button ${className}`}
             onClick = {onClick}
         >
-            {Icon && <Icon size = {20} />}
+            {Icon && <Icon className = "buttonIcon" />}
             {children}
         </button>
 

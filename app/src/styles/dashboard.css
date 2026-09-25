@@ -11,6 +11,10 @@
     align-items: center;
 
     background-color: rgba(0, 0, 0, 0.733);
+    
+    /* Fondo */
+    background-image: url('../../public/images/background.jpg');
+    background-size: cover;
 }
 
 .textContainer {

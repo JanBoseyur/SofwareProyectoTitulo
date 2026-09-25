@@ -27,6 +27,11 @@
     transition: color 0.2s;
 }
 
+.buttonIcon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
 .buttonNav::before {
     content: "";
 
